@@ -33,8 +33,8 @@
 		ACFECD081C4B85760037614E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFECD0B1C4B85760037614E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACFECD0D1C4B85760037614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACFECD131C4B86620037614E /* MIResizableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIResizableTableView.h; path = MIResizableTableView/MIResizableTableView.h; sourceTree = "<group>"; };
-		ACFECD141C4B86620037614E /* MIResizableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIResizableTableView.m; path = MIResizableTableView/MIResizableTableView.m; sourceTree = "<group>"; };
+		ACFECD131C4B86620037614E /* MIResizableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIResizableTableView.h; sourceTree = "<group>"; };
+		ACFECD141C4B86620037614E /* MIResizableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIResizableTableView.m; sourceTree = "<group>"; };
 		ACFECD171C4B87920037614E /* MIResizableTableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIResizableTableViewSectionHeader.h; sourceTree = "<group>"; };
 		ACFECD181C4B87920037614E /* MIResizableTableViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIResizableTableViewSectionHeader.m; sourceTree = "<group>"; };
 		ACFECD1B1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MIResizableTableViewSectionHeader.xib; sourceTree = "<group>"; };
@@ -108,6 +108,7 @@
 				ACFECD141C4B86620037614E /* MIResizableTableView.m */,
 			);
 			name = MIResizableTableView;
+			path = ../MIResizableTableView;
 			sourceTree = "<group>";
 		};
 		ACFECD1A1C4B879D0037614E /* SectionHeader */ = {
@@ -117,8 +118,7 @@
 				ACFECD181C4B87920037614E /* MIResizableTableViewSectionHeader.m */,
 				ACFECD1B1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib */,
 			);
-			name = SectionHeader;
-			path = MIResizableTableView/SectionHeader;
+			path = SectionHeader;
 			sourceTree = "<group>";
 		};
 		ACFECD221C4B8F2E0037614E /* ProductCell */ = {

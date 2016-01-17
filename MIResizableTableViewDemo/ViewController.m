@@ -170,7 +170,7 @@
 #pragma mark - MIResizableTableViewDelegate
 - (CGFloat)resizableTableView:(MIResizableTableView *)resizableTableView heightForHeaderInSection:(NSInteger)section {
     
-    return 50;
+    return 40;
 }
 - (CGFloat)resizableTableView:(MIResizableTableView *)resizableTableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
