@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QEW-hi-XOC" customClass="MIResizableTableView">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QEW-hi-XOC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="5U5-uR-FQy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QEW-hi-XOC" secondAttribute="bottom" id="6VE-Zo-kn4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="QEW-hi-XOC" secondAttribute="leading" id="8Ri-Xi-cGm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QEW-hi-XOC" secondAttribute="trailing" id="COS-43-1Hl"/>
+                            <constraint firstItem="QEW-hi-XOC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Dfy-C0-kyL"/>
+                            <constraint firstItem="QEW-hi-XOC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="H7a-fQ-B0l"/>
+                            <constraint firstItem="QEW-hi-XOC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NDh-Fg-BX8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QEW-hi-XOC" secondAttribute="trailing" constant="-20" id="PaW-If-tNJ"/>
+                            <constraint firstItem="QEW-hi-XOC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="R9w-30-bDJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QEW-hi-XOC" secondAttribute="trailing" id="huQ-M6-nFf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QEW-hi-XOC" secondAttribute="bottom" id="j9U-gE-g1N"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QEW-hi-XOC" secondAttribute="bottom" id="o7l-cd-fDf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8Ri-Xi-cGm"/>
+                                <exclude reference="COS-43-1Hl"/>
+                                <exclude reference="Dfy-C0-kyL"/>
+                                <exclude reference="NDh-Fg-BX8"/>
+                                <exclude reference="R9w-30-bDJ"/>
+                                <exclude reference="huQ-M6-nFf"/>
+                                <exclude reference="6VE-Zo-kn4"/>
+                                <exclude reference="j9U-gE-g1N"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="QEW-hi-XOC" id="LOV-gp-P4R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="221" y="292"/>
         </scene>
     </scenes>
 </document>

@@ -13,6 +13,13 @@
 		ACFECD071C4B85760037614E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFECD051C4B85760037614E /* Main.storyboard */; };
 		ACFECD091C4B85760037614E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFECD081C4B85760037614E /* Assets.xcassets */; };
 		ACFECD0C1C4B85760037614E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFECD0A1C4B85760037614E /* LaunchScreen.storyboard */; };
+		ACFECD151C4B86620037614E /* MIResizableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFECD141C4B86620037614E /* MIResizableTableView.m */; };
+		ACFECD191C4B87920037614E /* MIResizableTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFECD181C4B87920037614E /* MIResizableTableViewSectionHeader.m */; };
+		ACFECD1C1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFECD1B1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib */; };
+		ACFECD201C4B8F290037614E /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFECD1E1C4B8F290037614E /* ProductTableViewCell.m */; };
+		ACFECD211C4B8F290037614E /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFECD1F1C4B8F290037614E /* ProductTableViewCell.xib */; };
+		ACFECD251C4B99EC0037614E /* CategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFECD241C4B99EC0037614E /* CategoryView.m */; };
+		ACFECD271C4B99F60037614E /* CategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFECD261C4B99F60037614E /* CategoryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		ACFECD081C4B85760037614E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFECD0B1C4B85760037614E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACFECD0D1C4B85760037614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFECD131C4B86620037614E /* MIResizableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIResizableTableView.h; path = MIResizableTableView/MIResizableTableView.h; sourceTree = "<group>"; };
+		ACFECD141C4B86620037614E /* MIResizableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIResizableTableView.m; path = MIResizableTableView/MIResizableTableView.m; sourceTree = "<group>"; };
+		ACFECD171C4B87920037614E /* MIResizableTableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIResizableTableViewSectionHeader.h; sourceTree = "<group>"; };
+		ACFECD181C4B87920037614E /* MIResizableTableViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIResizableTableViewSectionHeader.m; sourceTree = "<group>"; };
+		ACFECD1B1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MIResizableTableViewSectionHeader.xib; sourceTree = "<group>"; };
+		ACFECD1D1C4B8F290037614E /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		ACFECD1E1C4B8F290037614E /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		ACFECD1F1C4B8F290037614E /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		ACFECD231C4B99EC0037614E /* CategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryView.h; sourceTree = "<group>"; };
+		ACFECD241C4B99EC0037614E /* CategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryView.m; sourceTree = "<group>"; };
+		ACFECD261C4B99F60037614E /* CategoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +78,14 @@
 			children = (
 				ACFECCFF1C4B85760037614E /* AppDelegate.h */,
 				ACFECD001C4B85760037614E /* AppDelegate.m */,
-				ACFECD021C4B85760037614E /* ViewController.h */,
-				ACFECD031C4B85760037614E /* ViewController.m */,
-				ACFECD051C4B85760037614E /* Main.storyboard */,
 				ACFECD081C4B85760037614E /* Assets.xcassets */,
 				ACFECD0A1C4B85760037614E /* LaunchScreen.storyboard */,
+				ACFECD051C4B85760037614E /* Main.storyboard */,
+				ACFECD021C4B85760037614E /* ViewController.h */,
+				ACFECD031C4B85760037614E /* ViewController.m */,
+				ACFECD281C4B9A0C0037614E /* CategoryView */,
+				ACFECD221C4B8F2E0037614E /* ProductCell */,
+				ACFECD161C4B86650037614E /* MIResizableTableView */,
 				ACFECD0D1C4B85760037614E /* Info.plist */,
 				ACFECCFC1C4B85760037614E /* Supporting Files */,
 			);
@@ -77,6 +98,47 @@
 				ACFECCFD1C4B85760037614E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACFECD161C4B86650037614E /* MIResizableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				ACFECD1A1C4B879D0037614E /* SectionHeader */,
+				ACFECD131C4B86620037614E /* MIResizableTableView.h */,
+				ACFECD141C4B86620037614E /* MIResizableTableView.m */,
+			);
+			name = MIResizableTableView;
+			sourceTree = "<group>";
+		};
+		ACFECD1A1C4B879D0037614E /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				ACFECD171C4B87920037614E /* MIResizableTableViewSectionHeader.h */,
+				ACFECD181C4B87920037614E /* MIResizableTableViewSectionHeader.m */,
+				ACFECD1B1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib */,
+			);
+			name = SectionHeader;
+			path = MIResizableTableView/SectionHeader;
+			sourceTree = "<group>";
+		};
+		ACFECD221C4B8F2E0037614E /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				ACFECD1D1C4B8F290037614E /* ProductTableViewCell.h */,
+				ACFECD1E1C4B8F290037614E /* ProductTableViewCell.m */,
+				ACFECD1F1C4B8F290037614E /* ProductTableViewCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		ACFECD281C4B9A0C0037614E /* CategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				ACFECD231C4B99EC0037614E /* CategoryView.h */,
+				ACFECD241C4B99EC0037614E /* CategoryView.m */,
+				ACFECD261C4B99F60037614E /* CategoryView.xib */,
+			);
+			path = CategoryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +200,9 @@
 			files = (
 				ACFECD0C1C4B85760037614E /* LaunchScreen.storyboard in Resources */,
 				ACFECD091C4B85760037614E /* Assets.xcassets in Resources */,
+				ACFECD1C1C4B8A700037614E /* MIResizableTableViewSectionHeader.xib in Resources */,
+				ACFECD211C4B8F290037614E /* ProductTableViewCell.xib in Resources */,
+				ACFECD271C4B99F60037614E /* CategoryView.xib in Resources */,
 				ACFECD071C4B85760037614E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFECD041C4B85760037614E /* ViewController.m in Sources */,
+				ACFECD251C4B99EC0037614E /* CategoryView.m in Sources */,
 				ACFECD011C4B85760037614E /* AppDelegate.m in Sources */,
+				ACFECD201C4B8F290037614E /* ProductTableViewCell.m in Sources */,
 				ACFECCFE1C4B85760037614E /* main.m in Sources */,
+				ACFECD191C4B87920037614E /* MIResizableTableViewSectionHeader.m in Sources */,
+				ACFECD151C4B86620037614E /* MIResizableTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -262,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MIResizableTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.MIResizableTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MIResizableTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.MIResizableTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
