@@ -62,4 +62,4 @@ Briefly here's how your ViewController should be.
 ```
 # Demo
 In this repository you can also find a demo.
-![](demo.gif| height=300)
+![](demo.gif | height=300)
