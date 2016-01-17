@@ -62,7 +62,7 @@ Briefly here's how your ViewController should be.
 ```
 # Demo
 In this repository you can also find a demo.
-![alt tag](https://raw.github.com/MarioIannotta/MIResizableTableView/demo.gif)
+![](demo.gif)
 
 
 
